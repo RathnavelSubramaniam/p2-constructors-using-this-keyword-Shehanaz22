@@ -27,9 +27,9 @@ class Product{
   //Calculate and return the discounted prince 
   void displayProductInfo()
   {
-    System.out.println("Product Id:"+ProductId);
-    System.out.println("Product Name:"+ProductName);
-    System.out.println("Product Price:"+price);
+    System.out.println("Product Id:"+ ProductId);
+    System.out.println("Product Name:"+ ProductName);
+    System.out.println("Product Price:"+ price);
     //Display product information
     //Static method to retrieve total product count
   }
@@ -38,9 +38,9 @@ public class Practical2
 {
   public static void main(String[] args)
   {
-    Product product1=new Product(101,"Laptop",999.99);
-    Product product2=new Product(202,"Smart Phone",499.95);
-    Product product3=new Product(303,"Tablet",299.50);
+    Product product1=new Product(101, "Laptop", 999.99);
+    Product product2=new Product(202, "Smart Phone", 499.95);
+    Product product3=new Product(303, "Tablet", 299.50);
     Product calcDiscount=new Product();
 
     product1.displayProductInfo();
